@@ -46,7 +46,7 @@ export default function Home() {
       <div className="w-full p-4">
         <form action="#" onSubmit={handleSubmit}>
           <div className='flex flex-row gap-2'>
-            <QuestionSection />
+            <QuestionSection code={code}/>
               <Editor
                 onChange={setCode}
                 value={code}
